@@ -1,0 +1,42 @@
+[
+{
+  "question": "Would the color green taste like apple?",
+  "answer": false
+},
+{
+  "question": "Toilet paper should be rolled over, not under.",
+  "answer": true
+},
+  {
+    "question": "A hot dog is a sandwich.",
+    "answer": true
+  },
+  {
+    "question": "Cereal is a soup.",
+    "answer": false
+  },
+  {
+  "question": "Dogs are better than cats.",
+  "answer": true
+  },
+  {
+    "question": "Pineapple belongs on pizza.",
+    "answer": true
+  },
+  {
+    "question": "Aliens exist.",
+    "answer": true
+  },
+  {
+    "question": "Chicken drums are better than wings.",
+    "answer":  true
+  },
+  {
+    "question": "Orange juice without pulp is superior.",
+    "answer":  false
+  },
+  {
+    "question": "Sweet candy is better than sour candy.",
+    "answer": false
+  }
+  ]
