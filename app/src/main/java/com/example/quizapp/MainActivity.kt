@@ -52,11 +52,13 @@ class MainActivity : AppCompatActivity() {
                     points.text = "$scoreText ${quiz.getScore()}"
                 }
             }
+            else if((!quiz.checkAnswer())&& quiz.getAnswer()){
+                quiz.updateScore()
+                points.text = "$scoreText ${quiz.getScore()}"
+                endscreen()
+            }
             else{
-                end.visibility = View.VISIBLE
-                buttonTrue.visibility = View.GONE
-                buttonFalse.visibility = View.GONE
-                textView.visibility = View.GONE
+            endscreen()
             }
         }
         buttonFalse.setOnClickListener {
@@ -73,17 +75,25 @@ class MainActivity : AppCompatActivity() {
                     points.text = "$scoreText ${quiz.getScore()}"
                 }
             }
+            else if((!quiz.checkAnswer())&& !quiz.getAnswer()){
+                quiz.updateScore()
+                points.text = "$scoreText ${quiz.getScore()}"
+                endscreen()
+            }
             else{
-                end.visibility = View.VISIBLE
-                buttonTrue.visibility = View.GONE
-                buttonFalse.visibility = View.GONE
-                textView.visibility = View.GONE
-
+              endscreen()
             }
 
         }
-
     }
+
+    private fun endscreen() {
+        end.visibility = View.VISIBLE
+        buttonTrue.visibility = View.GONE
+        buttonFalse.visibility = View.GONE
+        textView.visibility = View.GONE
+    }
+
     private fun wireWidgets(){
         buttonFalse = findViewById(R.id.button_main_false)
         buttonTrue = findViewById(R.id.button_main_true)

@@ -1,0 +1,42 @@
+[
+{
+  "question": "¿El color verde sabría a manzana?",
+  "answer": false
+},
+{
+  "question": "El papel higiénico debe enrollarse por encima, no por debajo.",
+  "answer": true
+},
+  {
+    "question": "Un perrito caliente es un sándwich.",
+    "answer": true
+  },
+  {
+    "question": "El cereal es una sopa.",
+    "answer": false
+  },
+  {
+  "question": "Los perros son mejores que los gatos.",
+  "answer": true
+  },
+  {
+    "question": "La piña pertenece a la pizza.",
+    "answer": true
+  },
+  {
+    "question": "Los aliens existen.",
+    "answer": true
+  },
+  {
+    "question": "Los chistes de mamá son graciosos.",
+    "answer":  false
+  },
+  {
+    "question": "El jugo de naranja sin pulpa es superior.",
+    "answer":  false
+  },
+  {
+    "question": "El caramelo dulce es mejor que el caramelo agrio.",
+    "answer": false
+  }
+  ]
